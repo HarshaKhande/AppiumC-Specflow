@@ -123,8 +123,6 @@ test:
       with:
         name: appium-api${{ matrix.apiLevel }}
         path: appium.log
-
-
   build:
 
     runs-on: ubuntu-latest
