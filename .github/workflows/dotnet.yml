@@ -1,6 +1,5 @@
 # This workflow will build a .NET project
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
-
 name: .NET
 
 on:
@@ -123,8 +122,7 @@ test:
       with:
         name: appium-api${{ matrix.apiLevel }}
         path: appium.log
-  build:
-
+build:
     runs-on: ubuntu-latest
 
     steps:
